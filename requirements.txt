@@ -1,6 +1,16 @@
+# Dépendances base
 torch>=2.0.0
 torchvision>=0.15.0
 fastapi>=0.104.0
 uvicorn>=0.24.0
 python-multipart>=0.0.6
 pillow>=10.0.0
+ultralytics>=8.0.0
+
+# PostgreSQL et Authentification
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+bcrypt>=4.0.1
+python-jose[cryptography]>=3.3.0
+pydantic[email]>=2.0.0
+python-dotenv>=1.0.0

@@ -25,3 +25,22 @@ temp/
 # OS
 .DS_Store
 Thumbs.db
+
+# Fichiers sensibles - NE PAS COMMIT
+.env
+.env.local
+config.py
+uploads/
+
+# Modèles IA (trop gros pour git)
+models/*.pth
+models/*.pt
+
+# Node modules
+node_modules/
+fracture-frontend/node_modules/
+fracture-frontend/.angular/
+
+# Build Angular
+fracture-frontend/dist/
+fracture-frontend/.angular/cache/
